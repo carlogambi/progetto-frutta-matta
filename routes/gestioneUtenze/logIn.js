@@ -8,6 +8,7 @@ logIn.post('/login', (req, res) => {
   const { db } = req;
   const collection = db.get('docUtenti');
   collection.findOne({ type: 'docTotUtenti' }).then((data) => {
+    console.log(data);
     const { users } = data;
     const loggedUser = data.users.find((item) => {
       return item.email === userEmail && item.pssw === password;
