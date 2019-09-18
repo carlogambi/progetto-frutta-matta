@@ -6,12 +6,12 @@ const engines = require('consolidate');
 const app = express();
 
 const router = require('./routes/router');
-/*
+
 const newUser = require('./routes/gestioneUtenze/newUser');
 const logIn = require('./routes/gestioneUtenze/logIn');
 const unlockUser = require('./routes/gestioneUtenze/unlockUser');
 const gestioneDoc = require('./routes/gestioneDocumenti/gestioneDoc');
-*/
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -30,12 +30,12 @@ db.then(() =>{
 app.use((req, res, next) => { req.db = db; next(); });
 
 app.use('/', router);
-/*
+
 app.use('/', newUser);
 app.use('/', logIn);
 app.use('/', unlockUser);
 app.use('/', gestioneDoc);
-*/
+
 app.listen(process.env.PORT || 3000);
 
 console.log('test Running at Port 3000');
