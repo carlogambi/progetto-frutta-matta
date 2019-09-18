@@ -1,0 +1,77 @@
+@bgcolor : black;
+@txtcolor : white;
+.docEart {
+  font-family: 'Roboto Slab', sans-serif;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px 2px #d1d1d1; }
+
+.forn {
+  width: max-content;
+  background-color: white;
+  padding: 1%;
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px 2px #d1d1d1; }
+
+.contFlexBott, .contFlexTot {
+  display: flex;
+  flex-wrap: wrap; }
+
+.buttCerca:hover {
+  transform: rotate(0deg); }
+
+.inputCerca {
+  font-size: 73%;
+  border: 2px solid #000000;
+  padding: 0.4vW;
+  padding-left: 2vW; }
+
+.bottCreaF {
+  width: fit-content;
+  text-decoration: none;
+  font-family: 'Roboto Slab', sans-serif;
+  cursor: context-menu; }
+
+.bottCreaF:hover {
+  color: lightblue; }
+
+.buntonAP {
+  transform: rotate(-6deg);
+  transition: 0.3s; }
+
+.buntonAP:hover {
+  transform: rotate(0deg); }
+
+.buntonA, .buttCerca {
+  text-decoration: none;
+  font-family: 'Roboto Slab', sans-serif;
+  cursor: context-menu;
+  margin: 0.2vW;
+  margin-bottom: 2vW; }
+  .buntonA .bCanc, .buttCerca .bCanc {
+    font-size: 68%;
+    cursor: context-menu; }
+  .buntonA .bCanc:hover, .buttCerca .bCanc:hover {
+    color: red; }
+  .buntonA .bMod, .buttCerca .bMod {
+    font-size: 80%;
+    cursor: context-menu; }
+  .buntonA .bMod:hover, .buttCerca .bMod:hover {
+    color: lightgreen; }
+  .buntonA .bVer, .buttCerca .bVer {
+    font-size: 80%;
+    cursor: context-menu; }
+  .buntonA .bVer:hover, .buttCerca .bVer:hover {
+    color: lightblue; }
+  .buntonA .cont, .buttCerca .cont {
+    font-size: 67%;
+    border: 2px solid #000000;
+    padding: 0.2vW; }
+    .buntonA .cont .inputBa, .buttCerca .cont .inputBa {
+      position: relative;
+      color: black;
+      display: inline-block;
+      padding: 0.4rem 0;
+      outline: 0; }
+    .buntonA .cont .span, .buttCerca .cont .span {
+      cursor: pointer;
+      margin-left: 2vW; }

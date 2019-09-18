@@ -1,0 +1,110 @@
+@bgcolor: black;
+@txtcolor: white;
+
+.docEart{
+  font-family: 'Roboto Slab', sans-serif;
+      margin-top: 20px;
+      box-shadow: 5px 5px 10px 2px #333333;
+}
+.forn{
+  width: max-content;
+  background-color: white;
+  padding: 1%;
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px 2px #333333;
+}
+.contFlexTot{
+  @extend .contFlexBott;
+}
+.contFlexBott{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttCerca{
+  @extend .buntonA;
+
+
+}
+.buttCerca:hover{
+  transform: rotate(0deg);
+}
+
+.inputCerca{
+  font-size: 73%;
+  border: 2px solid #000000;
+  padding: 0.4vW;
+  padding-left: 2vW;
+}
+
+.bottCreaF{
+  width: fit-content;
+  text-decoration: none;
+  font-family: 'Roboto Slab', sans-serif;
+//  margin: 0.7vW;
+  cursor: context-menu;
+}
+.bottCreaF:hover{
+  color: lightblue;
+
+}
+
+.buntonAP{
+  transform: rotate(-6deg);
+  transition: 0.3s;
+}
+.buntonAP:hover{
+  transform: rotate(0deg);
+}
+.buntonA{
+  text-decoration: none;
+  font-family: 'Roboto Slab', sans-serif;
+  cursor: context-menu;
+  margin: 0.2vW;
+  margin-bottom: 2vW;
+
+
+  .bCanc{
+    font-size: 68%;
+    cursor: context-menu;
+
+  }
+  .bCanc:hover{
+    color: red;
+
+  }
+  .bMod{
+    font-size: 80%;
+    cursor: context-menu;
+
+  }
+  .bMod:hover{
+    color: lightgreen;
+
+  }
+  .bVer{
+    font-size: 80%;
+    cursor: context-menu;
+
+  }
+  .bVer:hover{
+    color: lightblue;
+  }
+  .cont{
+    font-size: 67%;
+    border: 2px solid #000000;
+    padding: 0.2vW;
+
+    .inputBa{
+      position: relative;
+       color: black;
+       display: inline-block;
+       padding: 0.4rem 0;
+       outline: 0;
+    }
+    .span{
+      cursor: pointer;
+      margin-left: 2vW;
+    }
+  }
+}

@@ -1,0 +1,378 @@
+.pezziModUser{
+margin: 28px;
+}
+
+.buttGiorno{
+  padding: 10px;
+  border-color: #abff007d;
+  background-color: #abff007d;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: context-menu;
+  font-family: 'Viga', sans-serif;
+      color: #9fb212;
+}
+.buttAnno{
+  padding: 10px;
+      border-color: black;
+      background-color: #00c7ffc9;
+      height: fit-content;
+      border-radius: 55px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+      font-family: 'Viga', sans-serif;
+color: #ff0000;
+
+  }
+  .dateAnno{
+      position: relative;
+      margin: 10px;
+      padding: 10px;
+      background-color: #00ff6f;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 55px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+      transition: transform .2s; /* Animation */
+
+
+  }
+
+  /* Tooltip container */
+  .bottMese {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border-color: #abff007d;
+    background-color: #abff007d;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 55px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: context-menu;
+    font-family: 'Viga', sans-serif;
+        color: #9fb212;}
+
+  /* Tooltip text */
+  .bottMese .giorniMese {
+    visibility: hidden;
+        width: 578%;
+        background-color: #bbff6d;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 94px;
+        position: absolute;
+        z-index: 80;
+        left: -306%;
+        top: -66%;
+        padding: 21px;
+        line-height: 49px;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .bottMese:hover .giorniMese {
+    visibility: visible;
+  }
+
+.targetPopUp{
+  display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+.popUp{
+
+      padding: 34px;
+      border-radius: 24px;
+      position: absolute;
+      background-color: #c900ff;
+      left: 30%;
+      top: 33%;
+      right: 30%;
+      z-index: 20;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Questrial', sans-serif;
+
+}
+
+.contNewArt{
+  display: flex;
+      flex-wrap: wrap;
+      line-height: 61px;
+      justify-content: center;
+}
+
+.removeDoc{
+
+      position: relative;
+      top: -67px;
+      left: 99px;
+      width: fit-content;
+      border-radius: 100%;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 0px;
+      color: #ff0000;
+      font-size: 22px;
+      border-style: solid;
+      border-color: #ff00cfba;
+      background-color: #ffa4a424;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Questrial', sans-serif;
+
+}
+.removeForn{
+  position: relative;
+      top: -5px;
+      left: 109px;
+      width: fit-content;
+      border-radius: 100%;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 0px;
+      color: #ff0000;
+      font-size: 22px;
+      border-style: solid;
+      border-color: #ff00cfba;
+      background-color: #ffa4a424;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Questrial', sans-serif;
+
+}
+.addArt{
+  position: relative;
+      top: -153px;
+      left: 99px;
+      width: fit-content;
+      border-radius: 100%;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 0px;
+      color: #ff0000;
+      font-size: 22px;
+      border-style: solid;
+      border-color: #ff00cfba;
+      background-color: #ffa4a424;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Questrial', sans-serif;
+
+}
+
+.removeArt{
+  position: relative;
+  top: -234px;
+  left: 84px;
+      width: fit-content;
+      border-radius: 100%;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-bottom: 0px;
+      color: #ff0000;
+      font-size: 22px;
+      border-style: solid;
+      border-color: #ff00cfba;
+      background-color: #ffa4a424;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-family: 'Questrial', sans-serif;
+
+}
+
+.contNewDoc{
+
+}
+.gestioneForn{
+  background-color: #1e8fff5c;
+  border-radius: 61px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Questrial', sans-serif;
+}
+.contTotF{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1e8fff5c;
+  justify-content: center;
+  border-radius: 61px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Questrial', sans-serif;
+}
+
+.contF{
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  background-color: #00ff6f;
+  width: 239px;
+  height: fit-content;
+  border-radius: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: context-menu;
+  transition: transform .2s; /* Animation */
+
+}
+.contF:hover {
+  transform: scale(1.03);
+}
+.contD{
+
+      padding: 10px;
+      border-color: red;
+      background-color: #00ffcd5c;
+      width: 211px;
+      height: fit-content;
+      border-radius: 55px;
+      border-style: solid;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+
+}
+.contDocs{
+
+      padding: 10px;
+      background-color: #00ffcd5c;
+      width: 211px;
+      height: fit-content;
+      border-radius: 55px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+
+}
+.contDoc{
+  padding: 10px;
+      border-color: red;
+      background-color: #00afff5c;
+      width: 187px;
+      height: fit-content;
+      border-radius: 55px;
+      border-style: solid;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+
+}
+.contA{
+  padding: 10px;
+      background-color: #0051ff30;
+      width: 167px;
+      height: fit-content;
+      border-radius: 55px;
+      box-shadow: -3px 10px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+
+
+}
+.buttF{
+  padding: 10px;
+      border-color: black;
+      background-color: #00c7ffc9;
+      width: 167px;
+      height: fit-content;
+      border-radius: 55px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      cursor: context-menu;
+      font-family: 'Viga', sans-serif;
+color: #ff0000;
+
+  }
+  .buttFinput{
+    padding: 10px;
+        border-color: black;
+        background-color: #00c7ffc9;
+        width: 58px;
+        height: 14px;
+        border-radius: 55px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: context-menu;
+        font-family: 'Viga', sans-serif;
+  color: #ff0000;
+  margin: 5px;
+
+    }
+
+.ButtA{
+  padding: 10px;
+  border-color: #abff007d;
+  background-color: #abff007d;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: context-menu;
+  font-family: 'Viga', sans-serif;
+      color: #9fb212;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  border-color: #abff007d;
+  background-color: #abff007d;
+  width: fit-content;
+  height: 23px;
+  border-radius: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: context-menu;
+  font-family: 'Viga', sans-serif;
+      color: #9fb212;}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+      width: 134px;
+      background-color: #bbff6d;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 94px;
+      position: absolute;
+      z-index: 80;
+      bottom: -6%;
+      left: -153%;
+      padding: 21px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* select */
+
+/* Tooltip container */
+.tooltipS {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  border-color: #abff007d;
+  background-color: #abff007d;
+  width: fit-content;
+  height: 19px;
+  border-radius: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: context-menu;
+  font-family: 'Viga', sans-serif;
+      color: #9fb212;}
+
+/* Tooltip text */
+.tooltipS .tooltiptextS {
+  visibility: hidden;
+      width: fit-content;
+      background-color: #bbff6d;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 29px;
+      position: absolute;
+      z-index: 80;
+      bottom: -53%;
+      left: -35%;
+      padding: 21px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltipS:hover .tooltiptextS {
+  visibility: visible;
+}
