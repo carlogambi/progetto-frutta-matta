@@ -20,7 +20,7 @@ app.set('views', `${__dirname}/templates`);
 app.engine('html', engines.mustache);
 app.set('view engine', 'html');
 
-const db = monk('mongodb://fruttaMatta:ventilatoregatto94@ds131296.mlab.com:31296/heroku_lf3bj8dl');
+const db = monk('process.env.MONGOLAB_URI');
 db.then(() =>{
   console.log("connection success");
 }).catch((e)=>{
