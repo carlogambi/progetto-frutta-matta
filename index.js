@@ -41,3 +41,19 @@ console.log('test Running at Port 3000');
 
 const collection = db.get('docUtenti');
 collection.findOne({type: "docTotUtenti" }).then((doc) => {console.log(doc);})
+
+app.post('/giveMeMyDataBitch', (req, res) => {
+  const { usrTempkey } = req.body;
+  const { db } = req;
+  const collection = db.get('docUtenti');
+  collection.findOne({ type: 'docTotUtenti' }).then((data) => {
+    console.log(data);
+    const { users } = data;
+    const index = users.findIndex(piece => piece.tempkey == usrTempkey);
+    collection.find({ usrEmail: users[index].email }).then((docs) => {
+      const tempUserData = users[index];
+      delete tempUserData.pssw;
+      res.json({ incoming: { userData: tempUserData, docs } });
+    });
+  });
+});
